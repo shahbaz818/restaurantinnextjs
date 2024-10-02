@@ -42,7 +42,7 @@ const Services = () => {
                         <a href="#">
                             <h5 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">24/7 Services</h5>
                         </a>
-                        <p className="mb-3 font-normal text-gray-800 text-lg dark:text-gray-400 text-center">Our 24/7 service ensures you're never left waiting, with support and solutions available any time of day or night. Count on us for reliable assistance whenever you need it.</p>
+                        <p className="mb-3 font-normal text-gray-800 text-lg dark:text-gray-400 text-center">Our 24/7 service ensures you are never left waiting, with support and solutions available any time of day or night. Count on us for reliable assistance whenever you need it.</p>
                     </div>
                 </div>
             </div>
