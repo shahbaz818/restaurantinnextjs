@@ -11,6 +11,7 @@ const Aboutus = () => {
         <Head>
           <title>Aboutus page</title>
           <meta name="description" content="This is a Aboutus of my Next.js page." />
+          <meta name="viewport" content="viewport-fit=cover" />
         </Head>
       <div className="m-6 h-screen w-[1800px] mt-[110px]">
         <div className="grid grid-cols-1 h-screen w-full md:grid-cols-2">

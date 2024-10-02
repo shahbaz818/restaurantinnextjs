@@ -12,6 +12,7 @@ const Team = () => {
         <Head>
             <title>Team page</title>
             <meta name="description" content="This is a team of my Next.js page." />
+            <meta name="viewport" content="viewport-fit=cover" />
         </Head>
         <div className="mt-[650px] h-[600px] w-full md:mt-[0px]">
             <div className="flex flex-col justify-center items-center gap-6 mt-20">

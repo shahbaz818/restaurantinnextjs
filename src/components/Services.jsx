@@ -14,6 +14,7 @@ const Services = () => {
             <Head>
                 <title>Services page</title>
                 <meta name="description" content="This is a services of my Next.js page." />
+                <meta name="viewport" content="viewport-fit=cover" />
             </Head>
             <div className="h-screen w-full md:w-[1800px] mt-[250px]">
                 <h1 className="ml-[230px] text-center text-3xl text-blue-500">----Our Services----</h1>

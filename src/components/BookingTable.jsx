@@ -37,6 +37,7 @@ const BookTable = () => {
         <Head>
             <title>Booking Table page</title>
             <meta name="description" content="This is a Booking Table of my Next.js page." />
+            <meta name="viewport" content="viewport-fit=cover" />
         </Head>
             <form>
             <div class="mb-4">
