@@ -3,6 +3,7 @@ import { IoIosMan } from "react-icons/io";
 import { RiRestaurantFill } from "react-icons/ri";
 import { FaShoppingCart } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import Head from 'next/head';
 
 
 
@@ -10,6 +11,10 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 const Services = () => {
     return (
         <>
+            <Head>
+                <title>Services page</title>
+                <meta name="description" content="This is a services of my Next.js page." />
+            </Head>
             <div className="h-screen w-full md:w-[1800px] mt-[250px]">
                 <h1 className="ml-[230px] text-center text-3xl text-blue-500">----Our Services----</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 w-full items-center mx-auto mt-10 ml-32 gap-4 px-4">

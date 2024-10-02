@@ -3,10 +3,15 @@ import Image from 'next/image'
 import restaurant1 from '../../public/restaurant1.jpg'
 import restaurant2 from '../../public/restaurant2.jpg'
 import { RiRestaurantFill } from "react-icons/ri";
+import Head from 'next/head';
 
 const Aboutus = () => {
   return (
     <>
+        <Head>
+          <title>Aboutus page</title>
+          <meta name="description" content="This is a Aboutus of my Next.js page." />
+        </Head>
       <div className="m-6 h-screen w-[1800px] mt-[110px]">
         <div className="grid grid-cols-1 h-screen w-full md:grid-cols-2">
           <div className="flex flex-col h-[500px] w-[300px] ml-32 md:w-[650px]">

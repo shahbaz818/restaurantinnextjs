@@ -6,6 +6,7 @@ import { MdLunchDining } from "react-icons/md";
 import { IoFastFood } from "react-icons/io5";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Head from 'next/head';
 
 const FoodMenu = () => {
     const [items,setItems]=useState([])
@@ -22,6 +23,10 @@ const FoodMenu = () => {
     },[])
   return (
     <>
+    <Head>
+        <title>Food Menu page</title>
+        <meta name="description" content="This is a Food menu of my Next.js page." />
+    </Head>
     <div className="flex justify-center items-center h-screen w-full mt-[700px]  md:mt-[0px]">
         <div className="flex flex-col gap-4 items-center justify-center">
             <div className="flex justify-center items-center">

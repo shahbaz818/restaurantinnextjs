@@ -3,12 +3,16 @@ import Image from 'next/image'
 import customer from '../../public/customer.jpg'
 import customer1 from '../../public/customer1.jpg'
 import customer2 from '../../public/customer2.jpg'
-
+import Head from 'next/head';
 import { DiYeoman } from "react-icons/di";
 
 const Testimonial = () => {
   return (
     <>
+        <Head>
+            <title>Testimonial page</title>
+            <meta name="description" content="This is a Testimonial of my Next.js page." />
+        </Head>
         <div className="mt-[1100px] h-screen w-full md:mt-[0px]">
             <div className="flex flex-col justify-center items-center gap-6 mt-20">
             <div className="flex gap-5 items-center">

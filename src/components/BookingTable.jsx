@@ -3,6 +3,7 @@ import React from 'react'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
+import Head from 'next/head';
 const BookTable = () => {
     const [name,setName]=useState("")
     const [email,setEmail]=useState("")
@@ -33,6 +34,10 @@ const BookTable = () => {
     }
   return (
     <>
+        <Head>
+            <title>Booking Table page</title>
+            <meta name="description" content="This is a Booking Table of my Next.js page." />
+        </Head>
             <form>
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
