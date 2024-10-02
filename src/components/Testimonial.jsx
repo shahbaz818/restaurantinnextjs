@@ -17,7 +17,7 @@ const Testimonial = () => {
                 <div className="h-[3px] w-16 bg-orange-500"></div>
             </div>
             <h1 className="flex items-center justify-center text-5xl bg-blue-500 rounded-md h-14 w-[400px] text-center">Our Clients Say!!!</h1>
-            <div className="flex flex-wrap justify-center items-center gap-10 m-24">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 m-24">
                 <div className=" flex flex-col h-[450px] w-[400px] space-y-3 border border-orange-400 rounded-md shadow-xl hover:bg-pink-300">
                     <DiYeoman style={{ color: 'orange', fontSize: '24px' }} className="h-28 w-28"/>
                     <h1 className="text-md font-bold text-gray-400 ml-2">The seasonal menu featured dishes bursting with fresh flavors, and the roasted beet salad was a standout. Service was attentive without being intrusive. I highly recommend their house-made pasta it was perfectly
