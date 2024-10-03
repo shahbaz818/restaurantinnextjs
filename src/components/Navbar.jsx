@@ -39,6 +39,7 @@ const Navbar = () => {
                                 <Link href="/Service" class="text-blue-800 text-xl font-semibold hover:text-purple-600 mr-4">SERVICE</Link>
                                 <Link href="/Foodmenu" class="text-blue-800 text-xl font-semibold hover:text-purple-600 mr-4">MENU</Link>
                                 <Link href="/BookingTable" class="text-blue-800 text-xl font-semibold hover:text-purple-600 mr-4">BOOK A TABLE</Link>
+                                <Link href="/admin" class="text-blue-800 text-xl font-semibold hover:text-purple-600 mr-4">ADMIN</Link>
                             </div>
 
                             <div class="hidden sm:flex sm:items-center">
