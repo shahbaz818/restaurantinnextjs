@@ -17,8 +17,8 @@ const Services = () => {
                 <meta name="viewport" content="viewport-fit=cover" />
             </Head>
             <div className="">
-            <div className="h-screen w-[300px] items-center overflow-hidden md:w-[1800px] mt-[250px] md:ml-32 ">
-                <h1 className=" md:ml-[230px] text-center text-3xl text-blue-500">----Our Services----</h1>
+            <div className="h-screen w-[300px] items-center overflow-hidden md:w-auto md:overflow-hidden mt-[250px] md:ml-16 ">
+                <h1 className=" text-center text-5xl text-blue-500">----Our Services----</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 w-[1800px] mx-auto mt-10 gap-4 px-4">
                     <div className="h-[450px] w-[300px] md:w-[400px] p-4 bg-white border border-gray-200 hover:bg-pink-400 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <IoIosMan style={{ color: 'brown', fontSize: '24px' }} className="h-20 w-20 mx-auto" />
