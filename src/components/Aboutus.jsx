@@ -14,9 +14,9 @@ const Aboutus = () => {
         <meta name="viewport" content="viewport-fit=cover" />
       </Head>
       <div className="overflow-hidden">
-        <div className="m-6 h-screen w-[1800px] mt-[310px] md:mt-[0px]">
+        <div className="m-6 h-screen w-[1450px] mt-[310px] md:mt-[0px]">
           <div className="grid grid-cols-1 h-screen w-full md:grid-cols-2">
-            <div className="flex flex-col h-[500px] w-[300px] ml-32 md:w-[650px]">
+            <div className="flex flex-col h-[500px] w-[300px] ml-60 md:w-[650px]">
               <div className="flex space-x-3">
                 <Image src={restaurant1} alt="image not show" height={500} width={400} className="rounded-sm " />
                 <div className="flex-shrink-0">
@@ -44,7 +44,7 @@ const Aboutus = () => {
                 <Image src={restaurant1} alt="image" height={500} width={400} className="rounded-sm" />
               </div>
             </div>
-            <div className="flex flex-col mt-[200px] ml-[200px] h-[600px] w-[300px] text-xl md:w-[600px] md:mt-[0px]">
+            <div className="flex flex-col mt-[200px] ml-[400px] h-[600px] w-[300px] text-xl md:w-[600px] md:mt-[0px]">
               <h1 className="text-4xl text-blue-600">About US ----</h1>
               <div className="flex text-5xl mt-6 text-black text-bold">
                 <h1>Welcome To</h1>
