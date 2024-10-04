@@ -7,7 +7,7 @@ const Page = () => {
   const [listCustomer, setListCustomer] = useState([])
 
   const fetchData = async () => {
-    let res = await axios.get("http://localhost:3000/api/customer")
+    let res = await axios.get("https://restaurantinnextjs.vercel.app/api/customer")
     console.log(res)
     setListCustomer(res.data)
   }

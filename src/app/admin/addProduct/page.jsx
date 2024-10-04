@@ -11,7 +11,7 @@ const Page = () => {
   const handleChange=async(e)=>{
     e.preventDefault()
     console.log(name,image,price,detail,category);
-    const res=await fetch("http://localhost:3000/api/food",{
+    const res=await fetch("https://restaurantinnextjs.vercel.app/api/food",{
       method:"POST",
       body: JSON.stringify({name,image,price,detail,category }),
       headers:{
@@ -41,7 +41,7 @@ const Page = () => {
    <>
    <div className='bg-slate-100 h-full' style={style} >
     <div className='flex flex-col justify-center items-center ml-20 mt-20'>
-    <h1 className='text-4xl text-blue-500'>Add Blog</h1>
+    <h1 className='text-4xl text-blue-500'>Add Product</h1>
     <form >
       <div className='flex flex-col gap-2'>
       <label className='mt-2 text-white text-xl'>Name</label>

@@ -16,7 +16,7 @@ const DeleteCustomer = ({id}) => {
 
     try {
       // Perform the delete operation
-      let response = await fetch(`http://localhost:3000/api/customer/${id}`,{
+      let response = await fetch(`https://restaurantinnextjs.vercel.app/api/customer/${id}`,{
         method: "DELETE",
       });
       response = await response.json();
