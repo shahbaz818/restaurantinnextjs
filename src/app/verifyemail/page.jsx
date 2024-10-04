@@ -12,7 +12,7 @@ const VerifyEmail = () => {
 
   const userVerifyEmail = async () => {
     try {
-      await axios.post('http://localhost:3000/api/user/verifyemail', { token });
+      await axios.post('https://restaurantinnextjs.vercel.app/api/user/verifyemail', { token });
       setVerified(true);
     } catch (error) {
       setError(true);

@@ -4,7 +4,7 @@ import axios from 'axios'
 const Category = () => {
     const [food,setFood]=useState([])
         const fetchData=async()=>{
-            let res=await fetch("http://localhost:3000/api/food")
+            let res=await fetch("https://restaurantinnextjs.vercel.app/api/food")
             const data=await res.json()
             console.log(data)
             setFood(data)

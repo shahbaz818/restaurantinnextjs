@@ -14,7 +14,7 @@ const Recaptcha = () => {
     }
 
     // Send captchaValue to your backend for verification
-    const res = await fetch('http://localhost:3000/api/user/recaptcha', {
+    const res = await fetch('https://restaurantinnextjs.vercel.app/api/user/recaptcha', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const Recaptcha = () => {
     <form onSubmit={onSubmit}>
       {/* Your form fields go here */}
       <ReCAPTCHA
-        sitekey="6Lc9vlEqAAAAABFw7M9ffAh4M9AaeEUUSsYQz4O6"
+        sitekey="6LfLV1YqAAAAAHRb83-HLS4Q993eR2PRelH9fIsF"
         onChange={setCaptchaValue}
       />
       <button type="submit">Submit</button>

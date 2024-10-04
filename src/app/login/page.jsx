@@ -17,7 +17,7 @@ const Login = () => {
     const login=async()=>{
         try {
             setLoading(true)
-            const response = await axios.post('http://localhost:3000/api/user/login',user)
+            const response = await axios.post('https://restaurantinnextjs.vercel.app/api/user/login',user)
             console.log("Login Successfully", response.data);
             router.push('/')
 

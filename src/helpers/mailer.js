@@ -34,7 +34,7 @@ export const sendEmail = async({ email, emailType, userId }) => {
             subject: emailType === "VERIFY" ? "Verify Your Email" : "RESET your password",
             html: `<p>Click <a href="http://localhost:3000/verifyemail?token=${hashedToken}">Here</a> to ${emailType === "VERIFY" ? "Verify Your Email" : "RESET your password"}
             or copy and paste your link to your browser
-            <br> http://localhost:3000/verifyemail?token=${hashedToken}
+            <br> https://restaurantinnextjs.vercel.app/verifyemail?token=${hashedToken}
             </p>`,
         }
 

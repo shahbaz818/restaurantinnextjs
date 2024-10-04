@@ -20,7 +20,7 @@ const Signup = () => {
             setLoading(true)
             e.preventDefault();
             console.log(form)
-            const response = await axios.post("http://localhost:3000/api/user/signup", form)
+            const response = await axios.post("https://restaurantinnextjs.vercel.app/api/user/signup", form)
             console.log("signup", response.data)
             alert("send an email to your account plz verify it")
             toast.success("Register Successfully")

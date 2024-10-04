@@ -17,7 +17,7 @@ const BookTable = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         // console.log(name,email,date,time,people,message)
-        const response = await fetch("http://localhost:3000/api/customer", {
+        const response = await fetch("https://restaurantinnextjs.vercel.app/api/customer", {
             method: "POST",
             body: JSON.stringify({ name, email, date, time, people, message }),
             headers: {
